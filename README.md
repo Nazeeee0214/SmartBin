@@ -1,2 +1,0 @@
-# ThesisWebsiteee
- space-dyn
