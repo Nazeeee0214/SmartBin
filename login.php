@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+
     <!--
     
 TemplateMo 562 Space Dynamic
@@ -29,6 +31,8 @@ https://templatemo.com/tm-562-space-dynamic
 
 -->
 </head>
+
+
 
 <body>
 
@@ -70,13 +74,13 @@ https://templatemo.com/tm-562-space-dynamic
 
                     <div class="container pt-5 mt-5">
                         <div class="row">
-                            <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s"
+                            <div class="col-lg-5 align-self-center  wow fadeInUp" data-wow-duration="1s"
                                 data-wow-delay="0.2s">
                                 <div class="left-image">
-                                    <img src="assets/images/artoo.gif" style="height:380px; width:100%;" alt="">
+                                    <img src="assets/images/artoo.gif" style="height:280px; width:100%;" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <div class="col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                                 <div class="section-heading">
                                     <h2>Grow your website with our <em>SEO</em> service &amp; <span>Project</span> Ideas
                                     </h2>
@@ -113,6 +117,21 @@ https://templatemo.com/tm-562-space-dynamic
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-3 align-self-center  wow fadeInUp" data-wow-duration="1s"
+                                data-wow-delay="0.2s">
+                                <div class="DT_container">
+                                    <div class="display-date">
+                                        <div class="date-line">
+                                            <span id="day">day</span>
+                                            <span id="daynum">00</span>
+                                            <span id="month">month</span>
+                                            <span id="year">0000</span>
+                                        </div>
+                                    </div>
+                                    <div class="display-time"></div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -134,6 +153,8 @@ https://templatemo.com/tm-562-space-dynamic
             </div>
         </div>
     </footer>
+    <!--function JS-->
+
     <!-- Scripts -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -141,6 +162,8 @@ https://templatemo.com/tm-562-space-dynamic
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/templatemo-custom.js"></script>
+    <script src="assets/js/loginpg.js"></script>
+
 
 </body>
 
