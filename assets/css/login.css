@@ -21,7 +21,7 @@
 .display-time {
     font-size: 5rem;
     font-weight: bold;
-    border: 2px solid blue;
+    border: 2px solid #03a4ed;
     padding: 10px 20px;
     border-radius: 5px;
     transition: ease-in-out 0.1s;
@@ -30,8 +30,8 @@
 }
 
 .display-time:hover {
-    background: blue;
-    box-shadow: 0 0 30px blue;
+    background: #03a4ed;
+    box-shadow: 0 0 30px #03a4ed;
     color: white;
     cursor: pointer;
 }

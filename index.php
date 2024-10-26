@@ -18,7 +18,7 @@
 
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/animated.css">
   <link rel="stylesheet" href="assets/css/owl.css">
   <!--

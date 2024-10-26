@@ -18,7 +18,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/login.css">
@@ -57,23 +57,21 @@ https://templatemo.com/tm-562-space-dynamic
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <h4>Prototype<span>Name</span></h4>
+                            <h4>BIN<span>novation</span></h4>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#about">About us</a></li>
-                            <div class="main-red-button"><a href="#login">Login As Admin</a></div>
+                            <div class="main-blue-button"><a href="#login">Login As Admin</a></div>
                             </li>
                         </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
+
                         <!-- ***** Menu End ***** -->
                     </nav>
 
                     <div class="container pt-5 mt-5">
-                        <div class="row">
+                        <div class="row mt-5">
                             <div class="col-lg-5 align-self-center  wow fadeInUp" data-wow-duration="1s"
                                 data-wow-delay="0.2s">
                                 <div class="left-image">
@@ -89,32 +87,6 @@ https://templatemo.com/tm-562-space-dynamic
                                         redistribute the template ZIP file on any CSS template collection websites.
                                         Please contact us for more
                                         information. Thank you for your kind cooperation.</p>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="first-bar progress-skill-bar">
-                                            <h4>Website Analysis</h4>
-                                            <span>84%</span>
-                                            <div class="filled-bar"></div>
-                                            <div class="full-bar"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="second-bar progress-skill-bar">
-                                            <h4>SEO Reports</h4>
-                                            <span>88%</span>
-                                            <div class="filled-bar"></div>
-                                            <div class="full-bar"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="third-bar progress-skill-bar">
-                                            <h4>Page Optimizations</h4>
-                                            <span>94%</span>
-                                            <div class="filled-bar"></div>
-                                            <div class="full-bar"></div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 align-self-center  wow fadeInUp" data-wow-duration="1s"
