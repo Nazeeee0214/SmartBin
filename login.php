@@ -57,7 +57,9 @@ https://templatemo.com/tm-562-space-dynamic
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="login.php" class="logo">
-                            <h4>BIN<span>novation</span></h4>
+                            <h4>BIN<span>natog
+                                
+                            </span></h4>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
