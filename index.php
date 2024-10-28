@@ -52,7 +52,7 @@ https://templatemo.com/tm-562-space-dynamic
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
               <h4>Spac<span>Dyna</span></h4>
             </a>
             <!-- ***** Logo End ***** -->

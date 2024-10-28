@@ -56,7 +56,7 @@ https://templatemo.com/tm-562-space-dynamic
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
+                        <a href="login.php" class="logo">
                             <h4>BIN<span>novation</span></h4>
                         </a>
                         <!-- ***** Logo End ***** -->
@@ -69,57 +69,57 @@ https://templatemo.com/tm-562-space-dynamic
 
                         <!-- ***** Menu End ***** -->
                     </nav>
-
-                    <div class="container pt-5 mt-5">
-                        <div class="row mt-5">
-                            <div class="col-lg-5 align-self-center  wow fadeInUp" data-wow-duration="1s"
-                                data-wow-delay="0.2s">
-                                <div class="left-image">
-                                    <img src="assets/images/artoo.gif" style="height:280px; width:100%;" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                                <div class="section-heading">
-                                    <h2>Grow your website with our <em>SEO</em> service &amp; <span>Project</span> Ideas
-                                    </h2>
-                                    <p>Space Dynamic HTML5 template is free to use for your website projects. However,
-                                        you are not permitted to
-                                        redistribute the template ZIP file on any CSS template collection websites.
-                                        Please contact us for more
-                                        information. Thank you for your kind cooperation.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 align-self-center  wow fadeInUp" data-wow-duration="1s"
-                                data-wow-delay="0.2s">
-                                <div class="DT_container">
-                                    <div class="display-date">
-                                        <div class="date-line">
-                                            <span id="day">day</span>
-                                            <span id="daynum">00</span>
-                                            <span id="month">month</span>
-                                            <span id="year">0000</span>
-                                        </div>
-                                    </div>
-                                    <div class="display-time"></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </header>
+
     <!-- ***** Header Area End ***** -->
+    <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="left-image">
+                        <img src="assets/images/artoo.gif" style="height:280px; width:100%;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="section-heading">
+                        <h2>Grow your website with our <em>SEO</em> service &amp; <span>Project</span> Ideas
+                        </h2>
+                        <p>Space Dynamic HTML5 template is free to use for your website projects. However,
+                            you are not permitted to
+                            redistribute the template ZIP file on any CSS template collection websites.
+                            Please contact us for more
+                            information. Thank you for your kind cooperation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="DT_container">
+                        <div class="display-date">
+                            <div class="date-line">
+                                <span id="day">day</span>
+                                <span id="daynum">00</span>
+                                <span id="month">month</span>
+                                <span id="year">0000</span>
+                            </div>
+                        </div>
+                        <div class="display-time"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <p>© Copyright 2021 Space Dynamic Co. All Rights Reserved.
+                    <p>© Copyright 2024 The Defenders Yahoo! All Rights Reserved.
 
-                        <br>Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a>
+                        <br>Design: <a rel="nofollow" href="#">TheDefenders!</a>
                     </p>
                 </div>
             </div>
