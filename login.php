@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <title>BINOVATION</title>
+    <title>BINNOVATION</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -57,7 +57,7 @@ https://templatemo.com/tm-562-space-dynamic
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="login.php" class="logo">
-                            <h4>BIN<span>natog
+                            <h4>BIN<span>novation
                                 
                             </span></h4>
                         </a>
@@ -89,11 +89,11 @@ https://templatemo.com/tm-562-space-dynamic
                     <div class="section-heading">
                         <h2>Grow your website with our <em>SEO</em> service &amp; <span>Project</span> Ideas
                         </h2>
-                        <p>Space Dynamic HTML5 template is free to use for your website projects. However,
-                            you are not permitted to
-                            redistribute the template ZIP file on any CSS template collection websites.
-                            Please contact us for more
-                            information. Thank you for your kind cooperation.</p>
+                        <p>"Binnovation" combines "bin" (likely referring to binary or technology-focused systems) with "innovation," 
+                            suggesting a unique focus on technological advancement, particularly around data processing, 
+                            machine learning, and innovative computing solutions. This concept could refer to developing innovative,
+                             data-driven products and services, where technology is leveraged to transform traditional practices 
+                             across industries.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
