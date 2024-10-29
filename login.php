@@ -101,7 +101,8 @@ https://templatemo.com/tm-562-space-dynamic
             <div class="row">
                 <div class="col-lg-5   align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="left-image">
-                        <img src="assets/images/id.gif" style="height:380px; width:auto;" alt="">
+                        <img src="assets/images/id.gif"
+                            style="height:600px; width:200%; margin-left:-300px; margin-top:-150px;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
