@@ -1,16 +1,60 @@
+
+/* Basic styling for the slideshow container */
+
+
+.slideshow-container {
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Hide all slides by default */
+.slide {
+  display: none;
+}
+
+/* Fade animation */
+.fade {
+  animation: fadeEffect 1.5s ease-in-out;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.slide p {
+  font-size: 1.5em;
+  color: #000000;
+}
+
 .DT_container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: rotate(90deg);
+    transform: rotate(deg);
+    margin-top: -100px;
+    margin-right: -1050px;
+    
     /* Rotates the entire container */
 }
 
 .display-date {
     text-align: center;
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1px;
+    color:#03a4ed;
+}
+.year-line {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1px;
+  color:#1ddf3d;
 }
 
 .date-line {
@@ -19,21 +63,13 @@
 }
 
 .display-time {
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: bold;
-    border: 2px solid #03a4ed;
     padding: 10px 20px;
     border-radius: 5px;
     transition: ease-in-out 0.1s;
-    transition-property: background, box-shadow, color;
-    -webkit-box-reflect: below 2px linear-gradient(transparent, rgba(255, 255, 255, 0.05));
-}
+    color: #a10605;
 
-.display-time:hover {
-    background: #03a4ed;
-    box-shadow: 0 0 30px #03a4ed;
-    color: white;
-    cursor: pointer;
 }
 
 .date-line span {
@@ -233,15 +269,16 @@ body {
   position: relative;
   z-index: 2;
   line-height: 44px;
+  margin-left: -200px;
 }
 
 .section-heading h2 em {
   font-style: normal;
-  color: #03a4ed;
+  color: #1ddf3d;
 }
 
 .section-heading h2 span {
-  color: #fe3f40;
+  color: #03a4ed;
 }
 
 .main-blue-button a {
@@ -383,7 +420,7 @@ header
 .header-area .main-nav .nav {
   float: right;
   margin-top: 30px;
-  margin-right: 0px;
+  margin-right: -100px;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
