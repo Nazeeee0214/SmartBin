@@ -59,8 +59,8 @@ https://templatemo.com/tm-562-space-dynamic
                         <!-- ***** Logo Start ***** -->
                         <a href="login.php" class="logo">
                             <h4>BIN<span>abayag
-                                
-                            </span></h4>
+
+                                </span></h4>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -81,16 +81,16 @@ https://templatemo.com/tm-562-space-dynamic
     <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="container">
             <div class="row">
-            <div class="col-lg- align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                <div class="col-lg- align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="DT_container">
                         <div class="display-date">
                             <div class="date-line">
                                 <span id="day">day</span>
                                 <span id="daynum">00</span>
                                 <div class="year-line">
-                                <span id="month">month</span>
-                                <span id="year">0000</span>
-                            </div>
+                                    <span id="month">month</span>
+                                    <span id="year">0000</span>
+                                </div>
                             </div>
                         </div>
                         <div class="display-time"></div>
@@ -101,24 +101,24 @@ https://templatemo.com/tm-562-space-dynamic
             <div class="row">
                 <div class="col-lg-5   align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="left-image">
-                        <img src="assets/images/id.gif" style="height:600px; width:200%; margin-left:-300px; margin-top:-150px;" alt="">
+                        <img src="assets/images/id.gif" style="height:380px; width:auto;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="section-heading">
                         <div class="slideshow-container">
-        <div class="slide fade">
-        <h2><span>Welcome to our <em>Binnovation!</em></span></h2>
-        </div>
-        <div class="slide fade">
-          <h2>Try our Projects.</h2>
-        </div>
-        <div class="slide fade">
-            <h2>Scan the Barcode of your ID.</h2>
-        </div>
-    </div>
-    <script src="script.js"></script>
-    
+                            <div class="slide fade">
+                                <h2><span>Welcome to our <em>Binnovation!</em></span></h2>
+                            </div>
+                            <div class="slide fade">
+                                <h2>Try our Projects.</h2>
+                            </div>
+                            <div class="slide fade">
+                                <h2>Scan the Barcode of your ID.</h2>
+                            </div>
+                        </div>
+                        <script src="script.js"></script>
+
                     </div>
                 </div>
             </div>
