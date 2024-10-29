@@ -58,7 +58,7 @@ https://templatemo.com/tm-562-space-dynamic
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="login.php" class="logo">
-                            <h4>BIN<span>abayag
+                            <h4>BIN<span>NOVATION
                                 
                             </span></h4>
                         </a>
@@ -108,7 +108,7 @@ https://templatemo.com/tm-562-space-dynamic
                     <div class="section-heading">
                         <div class="slideshow-container">
         <div class="slide fade">
-        <h2><span>Welcome to our <em>Binnovation!</em></span></h2>
+        <h2><span>Welcome </span>to <em>Binnovation!</em></h2>
         </div>
         <div class="slide fade">
           <h2>Try our Projects.</h2>
