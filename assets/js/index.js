@@ -22688,3 +22688,7 @@ function toggleSidebar() {
     sidebar.style.left = "-250px"; // Slide out
   }
 }
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
