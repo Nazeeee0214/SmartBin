@@ -160,10 +160,8 @@ https://templatemo.com/tm-562-space-dynamic
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/jquery.cookie.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/animation.js"></script>
-    <script src="assets/js/imagesloaded.js"></script>
-    <script src="assets/js/templatemo-custom.js"></script>
+    <script src="assets/js/index.js"></script>
+
     <script src="assets/js/loginpg.js"></script>
     <script>
         $("#login").click(function () {
