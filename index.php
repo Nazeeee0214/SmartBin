@@ -49,19 +49,32 @@ https://templatemo.com/tm-562-space-dynamic
   <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 ">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.php" class="logo">
-              <h4>Spac<span>Dyna</span></h4>
+            <a href="login.php" class="logo">
+              <h4>BIN<span>NOVATION
+
+                </span></h4>
             </a>
             <!-- ***** Logo End ***** -->
+<<<<<<< Updated upstream
+=======
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#about">About us</a></li>
+              <div class="main-blue-button"><a href="#login">Login As Admin</a></div>
+              </li>
+            </ul>
+
+>>>>>>> Stashed changes
             <!-- ***** Menu End ***** -->
           </nav>
         </div>
       </div>
     </div>
   </header>
+
   <!-- ***** Header Area End ***** -->
   <div class="col-2">
   <div class="sidebar" id="sidebar">

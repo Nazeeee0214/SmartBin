@@ -237,7 +237,6 @@ body {
 header
 --------------------------------------------- 
 */
-
 .background-header {
   background-color: #fff!important;
   height: 80px!important;
@@ -250,7 +249,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #ffffff!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -309,7 +308,7 @@ header
 }
 
 .logo h4 span {
-  color: #17e500;
+  color: #1ddf3d;
 }
 
 .background-header .main-nav .logo h4 {
@@ -323,7 +322,7 @@ header
 .header-area .main-nav .nav {
   float: right;
   margin-top: 30px;
-  margin-right: 0px;
+  margin-right: -100px;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -359,7 +358,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  color: #ffffff;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -372,7 +371,7 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #2a2a2a;
+  color: #ffffff;
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -1576,6 +1575,7 @@ responsive
     margin-left: 0px;
   }
 }
+<<<<<<< Updated upstream
 /* Sidebar styling */
 /* Reset and body styling */
 * {
@@ -1664,3 +1664,7 @@ responsive
 .open-btn:hover {
   background: #0056b3; /* Darker blue on hover */
 }
+=======
+
+
+>>>>>>> Stashed changes
