@@ -25150,8 +25150,3 @@ function toggleSidebar() {
   mainContent.classList.toggle("active");
   openBtn.classList.toggle("change"); // Add this line to change the hamburger icon on toggle
 }
-
-function toggleSidebar() {
-  document.body.classList.toggle("sidebar-active");
-  // Toggle your sidebar visibility here
-}
