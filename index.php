@@ -50,7 +50,14 @@ https://templatemo.com/tm-562-space-dynamic
     <div class="container">
       <div class="row">
         <div class="col-12">
+        <button class="open-btn" onclick="toggleSidebar()">
+          <div class="bar1"></div>
+         <div class="bar2"></div>
+         <div class="bar3"></div>
+        </div>
+        </button>
           <nav class="main-nav">
+          
             <!-- ***** Logo Start ***** -->
             <a href="index.php" class="logo">
               <h4>Spac<span>Dyna</span></h4>
@@ -81,7 +88,8 @@ https://templatemo.com/tm-562-space-dynamic
   </div>
   </div>
 
-  <button class="open-btn" onclick="toggleSidebar()">Open Sidebar</button>
+
+  
 
   <!-- Scripts -->
   <script src="vendor/jquery/jquery.min.js"></script>
