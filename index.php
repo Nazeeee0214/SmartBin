@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -21,9 +22,17 @@
   <link rel="stylesheet" href="assets/css/animated.css">
   <link rel="stylesheet" href="assets/css/owl.css">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <!--
+    
+TemplateMo 562 Space Dynamic
+
+https://templatemo.com/tm-562-space-dynamic
+
+-->
 </head>
 
 <body>
+
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
@@ -58,29 +67,27 @@
           </nav>
         </div>
       </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ***** Sidebar Start ***** -->
-    <div class="sidebar" id="sidebar">
-      <button class="close-btn" onclick="toggleSidebar()">×</button>
-      <div class="sidebar-header">
-        <h2>Dashboard Menu</h2>
-      </div>
-      <ul class="sidebar-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Analytics</a></li>
-        <li><a href="#">Calendar</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Messages</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Settings</a></li>
-      </ul>
     </div>
-    <!-- ***** Sidebar End ***** -->
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <div class="col-2">
+  <div class="sidebar" id="sidebar">
+    <button class="close-btn" onclick="toggleSidebar()">×</button>
+    <div class="sidebar-header">
+      <h2>Dashboard Menu</h2>
+    </div>
+    <ul class="sidebar-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Analytics</a></li>
+      <li><a href="#">Calendar</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Messages</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
   </div>
-  <!-- ***** Header and Sidebar Flex Container End ***** -->
-
+  </div>
+]
 
   
 
@@ -89,12 +96,7 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/index.js"></script>
 
-  <script>
-    function toggleSidebar() {
-      const sidebar = document.getElementById("sidebar");
-      sidebar.classList.toggle("active");
-    }
-  </script>
+
 
 </body>
 
