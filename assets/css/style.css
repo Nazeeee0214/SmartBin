@@ -1592,9 +1592,10 @@ responsive
 
 
 .sidebar {
+  padding-top: 20px;
   width: 250px; /* Set the width for the sidebar */
   position: fixed; /* Keep it fixed */
-  top: 0;
+  top: 100px;
   left: -250px; /* Initially off-screen */
   height: 100%; /* Full height */
   background-color: #343a40; /* Adjust as necessary */
@@ -1675,7 +1676,7 @@ responsive
   font-size: 20px;
   padding: 10px 20px;
   cursor: pointer;
-  background: #007bff;
+  background: transparent;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -1686,14 +1687,14 @@ responsive
 }
 
 .open-btn:hover {
-  background: #0056b3; /* Darker blue on hover */
+  background: #17e500; /* Darker blue on hover */
 }
 
 /* Hamburger icon */
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: #ffffff;
   margin: 6px 0;
   transition: 0.4s;
 }

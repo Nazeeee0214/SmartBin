@@ -35,7 +35,7 @@
         </button>
         <nav class="main-nav">
           <a href="index.php" class="logo">
-            <h4>Spac<span>Dyna</span></h4>
+            <h4>BIN<span>NOVATION</span></h4>
           </a>
         </nav>
       </div>
@@ -44,7 +44,7 @@
 
     <div class="d-flex flex-row">
       <div class="sidebar" id="sidebar">
-        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        <button class="close-btn" onclick="toggleSidebar()"></button>
         <div class="sidebar-header">
           <h2>Dashboard Menu</h2>
         </div>
