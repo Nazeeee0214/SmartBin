@@ -4,7 +4,7 @@ session_start();
 
 $student_id = $_POST["student_id"];
 
-if (!empty($student_id)) {  // Use the correct variable
+if (!empty('student_id')) {  // Use the correct variable
     try {
         // Create a PDO instance
         $pdo = new PDO("mysql:host=$databaseHost;dbname=$databaseName", $databaseUsername, $databasePassword);
@@ -12,18 +12,18 @@ if (!empty($student_id)) {  // Use the correct variable
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         // Query to find the user by student_id
-        $query = "SELECT id, fname, mname, lname, suffix, user_type FROM users WHERE student_id = :student_id";
+        $query = "SELECT id, student_id, password, restriction, fullname FROM users WHERE student_id = :student_id";
         $stmt = $pdo->prepare($query);
-        $stmt->bindParam(':student_id', $student_id, PDO::PARAM_STR);  // Bind using $username
+        $stmt->bindParam(':student_id', $student_id, PDO::PARAM_STR);
         $stmt->execute();
 
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
         // Check if the user exists
         if ($result) {
-            $_SESSION['USER'] = [
+            $_SESSION['user'] = [
                 'id' => $result['id'],
-                'user_type' => $result['user_type']
+                'restriction' => $result['restriction']
             ];
             echo "success";
         } else {

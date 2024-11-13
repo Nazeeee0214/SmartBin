@@ -66,7 +66,7 @@ https://templatemo.com/tm-562-space-dynamic
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#about">About us</a></li>
-                            <div class="main-blue-button"><a href="#login">Login As Admin</a></div>
+                            <div class="main-red-button"><a href="loginAdmin.php">Login As Admin</a></div>
                             </li>
                         </ul>
 
@@ -161,15 +161,16 @@ https://templatemo.com/tm-562-space-dynamic
     <script src="assets/js/jquery.cookie.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
-
     <script src="assets/js/loginpg.js"></script>
     <script>
-        $("#login").click(function () {
+        $("#login").click(function() {
 
             var student_id = $('#student_id').val();
 
 
-            $.post("server/login.inc.php", { student_id: student_id }, function (response) {
+            $.post("server/login.inc.php", {
+                student_id: student_id
+            }, function(response) {
 
                 if (response === "success") {
                     window.location.href = "index.php";

@@ -377,12 +377,12 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #2a2a2a;
+  color: #dbdbdb;
 }
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #00ff15!important;
 }
 
 .background-header .main-nav .nav li:hover a,
