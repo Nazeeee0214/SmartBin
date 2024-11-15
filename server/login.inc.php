@@ -2,19 +2,19 @@
 include "dbconnect.inc.php";
 session_start();
 
-$student_id = $_POST["student_id"];
+$user_id = $_POST["user_id"];
 
-if (!empty('student_id')) {  // Use the correct variable
+if (!empty('user_id')) {  // Use the correct variable
     try {
         // Create a PDO instance
         $pdo = new PDO("mysql:host=$databaseHost;dbname=$databaseName", $databaseUsername, $databasePassword);
         // Set PDO to throw exceptions for errors
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        // Query to find the user by student_id
-        $query = "SELECT id, student_id, password, restriction, fullname FROM users WHERE student_id = :student_id";
+        // Query to find the user by user_id
+        $query = "SELECT id, user_id, password, restriction, fullname FROM users WHERE user_id = :user_id";
         $stmt = $pdo->prepare($query);
-        $stmt->bindParam(':student_id', $student_id, PDO::PARAM_STR);
+        $stmt->bindParam(':user_id', $user_id, PDO::PARAM_STR);
         $stmt->execute();
 
         $result = $stmt->fetch(PDO::FETCH_ASSOC);

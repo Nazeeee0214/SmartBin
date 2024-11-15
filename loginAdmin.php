@@ -180,11 +180,11 @@
         <script>
             $("#login").click(function() {
 
-                var student_id = $('#student_id').val();
+                var user_id = $('#user_id').val();
 
 
                 $.post("server/login.inc.php", {
-                    student_id: student_id
+                    user_id: user_id
                 }, function(response) {
 
                     if (response === "success") {

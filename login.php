@@ -107,7 +107,7 @@ https://templatemo.com/tm-562-space-dynamic
                     <form>
                         <div class="form-group">
                             <label>Student ID</label>
-                            <input id="student_id" name="student_id" type="password" class="form-control p_input">
+                            <input id="user_id" name="user_id" type="password" class="form-control p_input">
                         </div>
                         <div class="text-center d-grid gap-2 mt-1">
                             <button id="login" name="login" type="button"
@@ -165,11 +165,11 @@ https://templatemo.com/tm-562-space-dynamic
     <script>
         $("#login").click(function() {
 
-            var student_id = $('#student_id').val();
+            var user_id = $('#user_id').val();
 
 
             $.post("server/login.inc.php", {
-                student_id: student_id
+                user_id: user_id
             }, function(response) {
 
                 if (response === "success") {
