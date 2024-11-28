@@ -107,7 +107,7 @@ https://templatemo.com/tm-562-space-dynamic
                     <form>
                         <div class="form-group">
                             <label>Student ID</label>
-                            <input id="user_id" name="user_id" type="password" class="form-control p_input">
+                            <input id="user_id" name="user_id" type="text" value="<?php include "server/barcode_storage.php" ?>" class="form-control p_input">
                         </div>
                         <div class="text-center d-grid gap-2 mt-1">
                             <button id="login" name="login" type="button"
@@ -163,24 +163,46 @@ https://templatemo.com/tm-562-space-dynamic
     <script src="assets/js/index.js"></script>
     <script src="assets/js/loginpg.js"></script>
     <script>
-        $("#login").click(function() {
+        // Polling function to fetch the latest barcode from the server
+        // Polling function to fetch the latest barcode from the server
+        function pollBarcode() {
+            $.get("server/barcode_storage.php", function(data) {
+                // Check if the data is not empty (i.e., a barcode is available)
+                if (data.trim() !== "") {
+                    // Update the user_id input field with the barcode
+                    $("#user_id").val(data.trim());
 
-            var user_id = $('#user_id').val();
-
-
-            $.post("server/login.inc.php", {
-                user_id: user_id
-            }, function(response) {
-
-                if (response === "success") {
-                    window.location.href = "index.php";
-                } else {
-                    alert(response);
+                    // Manually trigger the input event after updating the value
+                    $('#user_id').trigger('input'); // This ensures the input event is triggered
                 }
             });
+        }
+
+        // Start polling the barcode storage file every 2 seconds
+        setInterval(pollBarcode, 2000);
+
+        // Listen for changes in the user_id input field
+        $('#user_id').on('input', function() {
+            var user_id = $(this).val().trim();
+
+            // Check if the input field is not empty (a barcode is present)
+            if (user_id !== "") {
+                // Trigger the login process as soon as the user_id is populated
+                $.post("server/login.inc.php", {
+                    user_id: user_id
+                }, function(response) {
+                    if (response === "success") {
+                        // After successful login, clear the barcode from storage
+                        $.get("server/clear_barcode.php", function() {
+                            window.location.href = "index.php"; // Redirect after login
+                        });
+                    } else {
+                        alert(response); // Show error message if login fails
+                    }
+                });
+            }
         });
     </script>
-
 
 </body>
 
