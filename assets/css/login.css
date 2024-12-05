@@ -1,3 +1,4 @@
+
 /* Basic styling for the slideshow container */
 
 .slideshow-container {
@@ -22,12 +23,8 @@
 
 /* Define fade effect */
 @keyframes fadeEffect {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 .slide p {
@@ -35,54 +32,58 @@
   color: #000000;
 }
 
+
 .DT_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transform: rotate(deg);
-  margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(deg);
+    margin-top: -80px;
+  
 }
 
 .display-date {
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 1px;
-  color: #03a4ed;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1px;
+    color:#03a4ed;
 }
 .year-line {
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 1px;
-  color: #1ddf3d;
+  color:#1ddf3d;
 }
 
 .date-line {
-  display: inline-flex;
-  /* Keeps day, month, and year on the same line */
+    display: inline-flex;
+    /* Keeps day, month, and year on the same line */
 }
 
 .display-time {
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: ease-in-out 0.1s;
-  color: #a10605;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: ease-in-out 0.1s;
+    color: #a10605;
+
 }
 
 .date-line span {
-  margin-right: 5px;
-  /* Adjust the spacing as needed */
+    margin-right: 5px;
+    /* Adjust the spacing as needed */
 }
 
 .date-line span:last-child {
-  margin-right: 0;
-  /* Removes extra margin on the last element */
+    margin-right: 0;
+    /* Removes extra margin on the last element */
 }
 
-/* From Uiverse.io by dylanharriscameron */
+
+/* From Uiverse.io by dylanharriscameron */ 
 .card {
   position: relative;
   width: 200px;
@@ -95,6 +96,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  ;
 }
 
 .bg {
@@ -104,7 +106,7 @@
   width: 190px;
   height: 240px;
   z-index: 2;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, .95);
   backdrop-filter: blur(24px);
   border-radius: 10px;
   overflow: hidden;
@@ -149,20 +151,20 @@
 
 .divider:after,
 .divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
 }
 .h-custom {
-  height: calc(100% - 73px);
+height: calc(100% - 73px);
 }
 @media (max-width: 450px) {
-  .h-custom {
-    height: 100%;
-  }
+.h-custom {
+height: 100%;
+}
 }
 
-#apl {
+#apl{
   color: #434343;
 }
