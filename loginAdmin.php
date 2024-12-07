@@ -65,7 +65,7 @@
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
                             <ul class="nav">
-                                <li class="scroll-to-section"><a href="#about">About us</a></li>
+                               
                                 <div class="main-red-button"><a href="login.php">Go back</a></div>
                                 </li>
                             </ul>

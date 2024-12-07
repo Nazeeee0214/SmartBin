@@ -65,7 +65,7 @@ https://templatemo.com/tm-562-space-dynamic
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#about">About us</a></li>
+                            
                             <div class="main-red-button"><a href="loginAdmin.php">Login As Admin</a></div>
                             </li>
                         </ul>

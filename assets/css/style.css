@@ -114,6 +114,7 @@ html, body {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 a {
@@ -1710,7 +1711,7 @@ responsive
 }
 .barcode-container {
   text-align: center;
-  background-color:#800000;
+  background-color:#f4f3f3;
   margin: 120px auto;
   background-image:assests/images/bin.png;
   width: 100%;

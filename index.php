@@ -87,17 +87,7 @@ https://templatemo.com/tm-562-space-dynamic
     <div class="col-12">
       <div class="barcode-container">
         <!-- Images aligned to the right edge -->
-        <div class="image-container">
-          <img src="assets/images/ucu.png" alt="UC Logo" class="logo">
-          <img src="assets/images/cea.png" alt="CEA Logo" class="logo">
-          <img src="assets/images/icep.png" alt="ICEP Logo" class="logo">
-        </div>
-
         
-
-
-        <!-- Barcode SVG -->
-        <svg id="barcode"></svg>
       </div>
     </div>
   </div>
