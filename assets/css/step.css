@@ -1,13 +1,4 @@
-/* Centering styles */
-body {
-  margin-top: 16rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20vh; /* Full height of the viewport */
-  background-color: #f0f0f0; /* Optional: Change to your preferred background color */
-  overflow: hidden; /* Prevent scrollbars */
-}
+
 
 /* Card styles */
 .card {
