@@ -12,7 +12,6 @@ if (!isset($_SESSION['user'])) {
 ?>
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -20,24 +19,14 @@ if (!isset($_SESSION['user'])) {
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-
   <title>Space Dynamic - SEO HTML5 Template</title>
-
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/animated.css">
   <link rel="stylesheet" href="assets/css/owl.css">
-  <!--
-    
-TemplateMo 562 Space Dynamic
-
-https://templatemo.com/tm-562-space-dynamic
-
--->
 </head>
 
 <body>
@@ -68,9 +57,7 @@ https://templatemo.com/tm-562-space-dynamic
               <!-- ***** Logo End ***** -->
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
-                
-                  <div class="main-red-button"><a href="logout.php">Logout</a></div>
-                </li>
+                <div class="main-red-button"><a href="logout.php">Logout</a></div>
               </ul>
               <a class='menu-trigger'>
                 <span>Menu</span>
@@ -82,31 +69,68 @@ https://templatemo.com/tm-562-space-dynamic
       </div>
     </header>
     <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Barcode Container Start ***** -->
     <div class="content-wrapper" style="overflow-x: hidden;">
-  <div class="row">
-    <div class="col-12">
-      <div class="barcode-container">
-        <!-- Images aligned to the right edge -->
-        
+      <div class="row">
+        <div class="col-12">
+          <div class="barcode-container">
+            <!-- Step Content Sections -->
+            <div class="step-content">
+              <div id="content-step1" class="step-content-item" style="display: block;">
+                <h3>Step 1 Content</h3>
+                <p>Details for step 1.</p>
+                <button class="btn btn-primary" id="next1">Next</button>
+                <button class="btn btn-secondary" id="cancel1">Cancel</button>
+              </div>
+              <div id="content-step2" class="step-content-item" style="display: none;">
+                <h3>Step 2 Content</h3>
+                <p>Details for step 2.</p>
+                <button class="btn btn-primary" id="next2">Next</button>
+                <button class="btn btn-secondary" id="prev2">Previous</button>
+                <button class="btn btn-secondary" id="cancel2">Cancel</button>
+              </div>
+              <div id="content-step3" class="step-content-item" style="display: none;">
+                <h3>Step 3 Content</h3>
+                <p>Details for step 3.</p>
+                <button class="btn btn-primary" id="next3">Next</button>
+                <button class="btn btn-secondary" id="prev3">Previous</button>
+                <button class="btn btn-secondary" id="cancel3">Cancel</button>
+              </div>
+              <div id="content-step4" class="step-content-item" style="display: none;">
+                <h3>Step 4 Content</h3>
+                <p>Details for step 4.</p>
+                <button class="btn btn-primary" id="next4">Next</button>
+                <button class="btn btn-secondary" id="prev4">Previous</button>
+                <button class="btn btn-secondary" id="cancel4">Cancel</button>
+              </div>
+              <div id="content-step5" class="step-content-item" style="display: none;">
+                <h3>Step 5 Content</h3>
+                <p>Details for step 5.</p>
+                <button class="btn btn-primary" id="next5">Next</button>
+                <button class="btn btn-secondary" id="prev5">Previous</button>
+                <button class="btn btn-secondary" id="cancel5">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-
-
-
+    <!-- ***** Barcode Container End ***** -->
 
     <footer>
     </footer>
   </div>
+
   <!-- Scripts -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/jquery.cookie.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/index.js"></script>
+
+  <!-- Link to External JavaScript -->
+  <script src="steps.js"></script> <!-- Link to the new JS file -->
 </body>
 
 </html>

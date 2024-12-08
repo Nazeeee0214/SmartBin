@@ -13,7 +13,7 @@ https://templatemo.com/tm-562-space-dynamic
   <div class="content">
     <a href="#">
       <span class="title">
-        Step 2:
+        <h1>Step 2:</h1>
       </span>
     </a>
 
