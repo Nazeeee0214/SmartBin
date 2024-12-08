@@ -13,7 +13,7 @@ https://templatemo.com/tm-562-space-dynamic
   <div class="content">
     <a href="#">
       <span class="title">
-        Step 5:
+        <h1>Step 5:</h1>
       </span>
     </a>
 
@@ -27,7 +27,7 @@ Total your Rewars Points is.    </p>
       </a>
 
       <!-- Next Button -->
-      <a class="action" href="#">
+      <a class="action" href="index.php">
         Next
         <span aria-hidden="true">→</span>
       </a>

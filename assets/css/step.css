@@ -1,38 +1,38 @@
 
-
 /* Card styles */
 .card {
-  width: 90%; /* Take up 90% of the screen width */
-  max-width: 1200px; /* Limit the width for larger screens */
-  border-radius: 1rem; /* Rounded corners */
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 1rem;
   background-color: #fff;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  display: flex; /* Flexbox for horizontal alignment */
-  flex-direction: row; /* Ensure elements are laid out horizontally */
-  overflow: hidden; /* Ensures no content spills outside */
-  height: 600px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  height: auto; /* Make height flexible */
+  max-height: 80vh; /* Prevent card from overflowing */
+  overflow: hidden;
 }
 
 /* Image Section */
 .image {
-  width: 40%; /* Occupy 40% of the card's width */
-  height: auto;
+  width: 40%;
   background-color: #800000;
   object-fit: cover;
+  height: 100%;
 }
 
 /* Content Section */
 .content {
   padding: 2rem;
-  width: 60%; /* Occupy 60% of the card's width */
+  width: 60%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Push buttons to the bottom */
+  justify-content: space-between;
 }
 
 .title {
   color: #111827;
-  font-size: 2rem; /* Adjusted font size for readability */
+  font-size: 2rem;
   line-height: 2.5rem;
   font-weight: 700;
 }
@@ -40,98 +40,93 @@
 .desc {
   margin-top: 1rem;
   color: #6b7280;
-  font-size: 1.25rem; /* Adjusted font size */
+  font-size: 1.25rem;
   line-height: 1.75rem;
   font-style: oblique;
+}
+
+/* Link Styles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2563eb;
+  text-decoration: underline;
 }
 
 /* Button Container */
 .actions {
   display: flex;
-  justify-content: flex-start; /* Align buttons to the left */
-  gap: 1rem; /* Space between buttons */
-  margin-top: 2rem; /* Space above buttons */
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 /* Button Styles */
 .action {
-  font-size: 1.55rem; /* Even smaller text */
-  padding: 10px 24px; /* Reduced padding for a more compact button */
-  border-radius: 3px; /* Slightly rounded for a more subtle effect */
+  font-size: 1.55rem;
+  padding: 10px 24px;
+  border-radius: 3px;
   display: inline-flex;
   color: #ffffff;
-  line-height: 2rem; /* Adjusted line height for smaller text */
+  line-height: 2rem;
   font-weight: 500;
   align-items: center;
-  gap: 0.125rem; /* Even smaller gap between icon and text */
+  gap: 0.125rem;
   background-color: #2563eb;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.action span {
-  transition: 0.3s ease;
-}
-
-.action:hover span {
-  transform: translateX(2px); /* Reduced hover movement */
-}
-
 .action:hover {
-  background-color: #1d4ed8; /* Darker blue on hover */
+  background-color: #1d4ed8;
 }
 
 /* Cancel Button Styles */
 .action.cancel {
-  background-color: #e11d48; /* Red background */
-  color: #ffffff; /* White text */
+  background-color: #e11d48;
+  color: #ffffff;
 }
 
 .action.cancel:hover {
-  background-color: #be123c; /* Darker red on hover */
-  transform: scale(1.05); /* Slightly enlarge on hover */
-}
-
-/* Previous Button Styles */
-.action.previous {
-  background-color: #6b7280; /* Gray background */
-}
-
-.action.previous:hover {
-  background-color: #4b5563; /* Darker gray on hover */
+  background-color: #be123c;
+  transform: scale(1.05);
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .card {
-    flex-direction: column; /* Stack elements vertically on smaller screens */
-    width: 95%; /* Take up more screen width */
+    flex-direction: column;
+    width: 95%;
+    max-height: none; /* No max height on mobile */
   }
 
   .image {
-    width: 100%; /* Image spans full width in vertical layout */
-    height: 200px; /* Adjust height for smaller screens */
+    width: 100%;
+    height: 200px;
   }
 
   .content {
-    width: 100%; /* Content spans full width */
+    width: 100%;
     padding: 1.5rem;
   }
 
   .title {
-    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    font-size: 1.5rem;
   }
 
   .desc {
-    font-size: 1rem; /* Adjust description font size */
+    font-size: 1rem;
   }
 
   .action {
-    font-size: 0.875rem; /* Smaller button text */
+    font-size: 0.875rem;
     padding: 10px 20px;
   }
 
   .actions {
-    justify-content: center; /* Center buttons on smaller screens */
+    justify-content: center;
   }
 }
