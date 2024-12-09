@@ -12,6 +12,7 @@ if (!isset($_SESSION['user'])) {
 ?>
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -19,14 +20,24 @@ if (!isset($_SESSION['user'])) {
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-  <title>Space Dynamic - SEO HTML5 Template</title>
+
+  <title>BINNOVATION</title>
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/animated.css">
   <link rel="stylesheet" href="assets/css/owl.css">
+  <!--
+    
+TemplateMo 562 Space Dynamic
+
+https://templatemo.com/tm-562-space-dynamic
+
+-->
 </head>
 
 <body>
@@ -57,7 +68,9 @@ if (!isset($_SESSION['user'])) {
               <!-- ***** Logo End ***** -->
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
-                <div class="main-red-button"><a href="logout.php">Logout</a></div>
+                
+                  <div class="main-red-button"><a href="logout.php">Logout</a></div>
+                </li>
               </ul>
               <a class='menu-trigger'>
                 <span>Menu</span>
@@ -69,18 +82,16 @@ if (!isset($_SESSION['user'])) {
       </div>
     </header>
     <!-- ***** Header Area End ***** -->
-
-    <!-- ***** Barcode Container Start ***** -->
     <div class="content-wrapper" style="overflow-x: hidden;">
-      <div class="row">
-        <div class="col-12">
-          <div class="barcode-container">
-            <!-- Images aligned to the right edge -->
-
-          </div>
-        </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="barcode-container">
+        <!-- Images aligned to the right edge -->
+        
       </div>
     </div>
+  </div>
+</div>
 
 
 
@@ -96,9 +107,6 @@ if (!isset($_SESSION['user'])) {
   <script src="assets/js/jquery.cookie.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/index.js"></script>
-
-  <!-- Link to External JavaScript -->
-  <script src="steps.js"></script> <!-- Link to the new JS file -->
 </body>
 
 </html>

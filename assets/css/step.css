@@ -1,132 +1,153 @@
+/* Centering styles */
+body {
+  margin-top: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh; /* Full height of the viewport */
+  background-color: #f0f0f0; /* Optional: Change to your preferred background color */
+  overflow: hidden; /* Prevent scrollbars */
+}
 
 /* Card styles */
 .card {
-  width: 90%;
-  max-width: 1200px;
-  border-radius: 1rem;
+  width: 90%; /* Take up 90% of the screen width */
+  max-width: 1200px; /* Limit the width for larger screens */
+  border-radius: 1rem; /* Rounded corners */
   background-color: #fff;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: row;
-  height: auto; /* Make height flexible */
-  max-height: 80vh; /* Prevent card from overflowing */
-  overflow: hidden;
+  box-shadow: none; /* Removed box-shadow to remove the blue line */
+  display: flex; /* Flexbox for horizontal alignment */
+  flex-direction: row; /* Ensure elements are laid out horizontally */
+  overflow: hidden; /* Ensures no content spills outside */
+  height: 600px;
 }
 
 /* Image Section */
 .image {
-  width: 40%;
+  width: 40%; /* Occupy 40% of the card's width */
+  height: auto;
   background-color: #800000;
   object-fit: cover;
-  height: 100%;
 }
 
 /* Content Section */
 .content {
   padding: 2rem;
-  width: 60%;
+  width: 60%; /* Occupy 60% of the card's width */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; /* Push buttons to the bottom */
 }
 
 .title {
   color: #111827;
-  font-size: 2rem;
+  font-size: 3rem; /* Adjusted font size for readability */
   line-height: 2.5rem;
   font-weight: 700;
+  text-decoration: none; /* Remove the blue underline from the anchor tag */
+  font-style: monospace;
+}
+
+/* Remove the default underline from all anchor tags */
+a {
+  text-decoration: none; /* Remove any default underline or blue border for links */
 }
 
 .desc {
   margin-top: 1rem;
-  color: #6b7280;
-  font-size: 1.25rem;
+  color: #424446;
+  font-size: 2rem; /* Adjusted font size */
   line-height: 1.75rem;
-  font-style: oblique;
-}
-
-/* Link Styles */
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #2563eb;
-  text-decoration: underline;
+  font-style: monospace;
 }
 
 /* Button Container */
 .actions {
   display: flex;
-  justify-content: flex-start;
-  gap: 1rem;
-  margin-top: 2rem;
+  justify-content: flex-start; /* Align buttons to the left */
+  gap: 1rem; /* Space between buttons */
+  margin-top: 2rem; /* Space above buttons */
 }
 
 /* Button Styles */
 .action {
-  font-size: 1.55rem;
-  padding: 10px 24px;
-  border-radius: 3px;
+  font-size: 1.55rem; /* Even smaller text */
+  padding: 10px 24px; /* Reduced padding for a more compact button */
+  border-radius: 3px; /* Slightly rounded for a more subtle effect */
   display: inline-flex;
   color: #ffffff;
-  line-height: 2rem;
+  line-height: 2rem; /* Adjusted line height for smaller text */
   font-weight: 500;
   align-items: center;
-  gap: 0.125rem;
+  gap: 0.125rem; /* Even smaller gap between icon and text */
   background-color: #2563eb;
-  text-decoration: none;
+  text-decoration: none; /* Removed any blue underline */
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.action span {
+  transition: 0.3s ease;
+}
+
+.action:hover span {
+  transform: translateX(2px); /* Reduced hover movement */
+}
+
 .action:hover {
-  background-color: #1d4ed8;
+  background-color: #1d4ed8; /* Darker blue on hover */
 }
 
 /* Cancel Button Styles */
 .action.cancel {
-  background-color: #e11d48;
-  color: #ffffff;
+  background-color: #e11d48; /* Red background */
+  color: #ffffff; /* White text */
 }
 
 .action.cancel:hover {
-  background-color: #be123c;
-  transform: scale(1.05);
+  background-color: #be123c; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Previous Button Styles */
+.action.previous {
+  background-color: #6b7280; /* Gray background */
+}
+
+.action.previous:hover {
+  background-color: #4b5563; /* Darker gray on hover */
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .card {
-    flex-direction: column;
-    width: 95%;
-    max-height: none; /* No max height on mobile */
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    width: 95%; /* Take up more screen width */
   }
 
   .image {
-    width: 100%;
-    height: 200px;
+    width: 100%; /* Image spans full width in vertical layout */
+    height: 200px; /* Adjust height for smaller screens */
   }
 
   .content {
-    width: 100%;
+    width: 100%; /* Content spans full width */
     padding: 1.5rem;
   }
 
   .title {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
   }
 
   .desc {
-    font-size: 1rem;
+    font-size: 1rem; /* Adjust description font size */
   }
 
   .action {
-    font-size: 0.875rem;
+    font-size: 0.875rem; /* Smaller button text */
     padding: 10px 20px;
   }
 
   .actions {
-    justify-content: center;
+    justify-content: center; /* Center buttons on smaller screens */
   }
 }
