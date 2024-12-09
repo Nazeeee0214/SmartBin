@@ -8,28 +8,29 @@ TemplateMo 562 Space Dynamic
 https://templatemo.com/tm-562-space-dynamic
 
 -->
+<title>BINNOVATION</title>
 <div class="card">
   <div class="image"></div>
   <div class="content">
     <a href="#">
       <span class="title">
-        <h1>Step 5:</h1>
+        STEP 5:
       </span>
     </a>
 
     <p class="desc">
-Total your Rewars Points is.    </p>
+Press "Proceed" to Continue.    </p>
 
     <div class="actions">
       <!-- Previous Button -->
       <a class="action previous" href="stepfour.php">
-        ← Previous
+         Previous
       </a>
 
       <!-- Next Button -->
       <a class="action" href="index.php">
-        Next
-        <span aria-hidden="true">→</span>
+        Proceed
+        <span aria-hidden="true"></span>
       </a>
 
       <!-- Cancel Button -->

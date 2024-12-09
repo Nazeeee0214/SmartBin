@@ -194,7 +194,7 @@ https://templatemo.com/tm-562-space-dynamic
                     if (response === "success") {
                         // After successful login, clear the barcode from storage
                         $.get("server/clear_barcode.php", function() {
-                            window.location.href = "index.php"; // Redirect after login
+                            window.location.href = "stepone.php"; // Redirect after login
                         });
                     } else {
                         alert(response); // Show error message if login fails

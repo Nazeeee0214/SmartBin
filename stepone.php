@@ -9,7 +9,7 @@
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/step.css">
   
-
+<title>BINNOVATION</title>
   <!--
     
 TemplateMo 562 Space Dynamic
@@ -23,18 +23,18 @@ https://templatemo.com/tm-562-space-dynamic
   <div class="content">
     <a href="#">
       <span class="title">
-       <h1>Step 1:</h1> 
+        STEP 1:
       </span>
     </a>
 
     <p class="desc">
-      Drop your Bottle
+      Drop your Bottle In the Bottle Deposit Gate.
     </p>
 
     <div class="actions">
       <a class="action" href="steptwo.php">
         Next
-        <span aria-hidden="true">→</span>
+        <span aria-hidden="true"></span>
       </a>
       <a class="action cancel" href="logout.php">
         Cancel

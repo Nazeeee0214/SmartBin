@@ -3,31 +3,31 @@
  <link rel="stylesheet" href="assets/css/step.css">
     
 
-
+<title>BINNOVATION</title>
 
 <div class="card">
   <div class="image"></div>
   <div class="content">
     <a href="#">
       <span class="title">
-        Step 3:
+        STEP 3:
       </span>
     </a>
 
     <p class="desc">
-      Scanning your Bottle if Reject. Please Wait...
+      Bottle Accepted.
     </p>
 
     <div class="actions">
       <!-- Previous Button -->
       <a class="action previous" href="steptwo.php">
-        ← Previous
+         Previous
       </a>
 
       <!-- Next Button -->
       <a class="action" href="stepfour.php">
         Next
-        <span aria-hidden="true">→</span>
+        <span aria-hidden="true"></span>
       </a>
 
       <!-- Cancel Button -->

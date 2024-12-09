@@ -2,35 +2,37 @@
   <!-- Additional CSS Files -->
 <link rel="stylesheet" href="assets/css/step.css">
   <!--
+
     
 TemplateMo 562 Space Dynamic
 
 https://templatemo.com/tm-562-space-dynamic
 
 -->
+<title>BINNOVATION</title>
 <div class="card">
   <div class="image"></div>
   <div class="content">
     <a href="#">
       <span class="title">
-        <h1>Step 2:</h1>
+        STEP 2:
       </span>
     </a>
 
     <p class="desc">
-      Scanning your Bottle. Please Wait....
+      Detecting the Bottle if there is Liquid Content.
     </p>
 
     <div class="actions">
       <!-- Previous Button -->
       <a class="action previous" href="stepone.php">
-        ← Previous
+         Previous
       </a>
 
       <!-- Next Button -->
-      <a class="action" href="stepthree.php">
+      <a class="action" href="reject.php">
         Next
-        <span aria-hidden="true">→</span>
+        <span aria-hidden="true"></span>
       </a>
 
       <!-- Cancel Button -->
