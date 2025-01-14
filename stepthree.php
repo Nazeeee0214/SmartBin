@@ -1,7 +1,7 @@
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Additional CSS Files -->
- <link rel="stylesheet" href="assets/css/step.css">
-    
+<!-- Additional CSS Files -->
+<link rel="stylesheet" href="assets/css/step.css">
+
 
 <title>BINNOVATION</title>
 
@@ -10,7 +10,6 @@
   <div class="content">
     <a href="#">
       <span class="title">
-        STEP 3:
       </span>
     </a>
 
@@ -21,7 +20,7 @@
     <div class="actions">
       <!-- Previous Button -->
       <a class="action previous" href="steptwo.php">
-         Previous
+        Previous
       </a>
 
       <!-- Next Button -->

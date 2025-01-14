@@ -1,15 +1,24 @@
+<?php
+ini_set('session.gc_maxlifetime', value: 60 * 60 * 24 * 365);
+session_set_cookie_params(60 * 60 * 24 * 365);
+session_start();
+
+if (!isset($_SESSION['user'])) {
+  header('location:login.php');
+}
+?>
 
 <head>
 
- 
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/step.css">
-  
-<title>BINNOVATION</title>
+
+  <title>BINNOVATION</title>
   <!--
     
 TemplateMo 562 Space Dynamic

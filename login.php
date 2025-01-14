@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    <link href="assets/css/googleapis.css"
         rel="stylesheet">
 
     <title>BINNOVATION</title>
@@ -65,7 +64,7 @@ https://templatemo.com/tm-562-space-dynamic
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            
+
                             <div class="main-red-button"><a href="loginAdmin.php">Login As Admin</a></div>
                             </li>
                         </ul>
@@ -98,12 +97,13 @@ https://templatemo.com/tm-562-space-dynamic
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4   align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                    <div class="left-image">
+                <div class="col-lg-6   align-self-right  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="left-image" style="margin-left:120px;">
                         <img src="assets/images/id.gif" style="height:380px; width:auto;" alt="">
                     </div>
+                    <h1 style="font-size:30px !important">Please Scan you Barcode to Login!</h1>
                 </div>
-                <div class="col-lg-4  align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                <div class="col-lg-6  align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                     <form>
                         <div class="form-group">
                             <label>Student ID</label>
@@ -115,26 +115,6 @@ https://templatemo.com/tm-562-space-dynamic
                                 in</button>
                         </div>
                     </form>
-                </div>
-                <div class="col-lg-4 wow fadeInUp align-self-center " data-wow-duration="1s" data-wow-delay="0.2s">
-                    <div class="section-heading">
-                        <div class="card ms-5">
-                            <div class="bg">
-                                <div class="slideshow-container">
-                                    <div class="slide fade">
-                                        <p>Slide 1: Welcome to our website!</p>
-                                    </div>
-                                    <div class="slide fade">
-                                        <p>Slide 2: Check out our services!</p>
-                                    </div>
-                                    <div class="slide fade">
-                                        <p>Slide 3: Contact us for more information!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blob"></div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

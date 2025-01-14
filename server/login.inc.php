@@ -12,7 +12,7 @@ if (!empty('user_id')) {  // Use the correct variable
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         // Query to find the user by user_id
-        $query = "SELECT id, user_id, password, restriction, fullname FROM users WHERE user_id = :user_id";
+        $query = "SELECT id, user_id, password, restriction, fullname, points    FROM users WHERE user_id = :user_id";
         $stmt = $pdo->prepare($query);
         $stmt->bindParam(':user_id', $user_id, PDO::PARAM_STR);
         $stmt->execute();
@@ -23,7 +23,9 @@ if (!empty('user_id')) {  // Use the correct variable
         if ($result) {
             $_SESSION['user'] = [
                 'id' => $result['id'],
-                'restriction' => $result['restriction']
+                'restriction' => $result['restriction'],
+                'points' => $result['points']
+
             ];
             echo "success";
         } else {

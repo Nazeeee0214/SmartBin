@@ -1,7 +1,7 @@
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/step.css">
-  <!--
+<!-- Additional CSS Files -->
+<link rel="stylesheet" href="assets/css/step.css">
+<!--
     
 TemplateMo 562 Space Dynamic
 
@@ -14,7 +14,6 @@ https://templatemo.com/tm-562-space-dynamic
   <div class="content">
     <a href="#">
       <span class="title">
-        STEP 4:
       </span>
     </a>
 
@@ -25,11 +24,11 @@ https://templatemo.com/tm-562-space-dynamic
     <div class="actions">
       <!-- Previous Button -->
       <a class="action previous" href="stepthree.php">
-         Previous
+        Previous
       </a>
 
       <!-- Next Button -->
-      <a class="action" href="stepfive.php">
+      <a class="action" href="reward_calc.php">
         Next
         <span aria-hidden="true"></span>
       </a>

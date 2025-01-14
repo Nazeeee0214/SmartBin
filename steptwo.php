@@ -1,7 +1,7 @@
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Additional CSS Files -->
+<!-- Additional CSS Files -->
 <link rel="stylesheet" href="assets/css/step.css">
-  <!--
+<!--
 
     
 TemplateMo 562 Space Dynamic
@@ -20,18 +20,22 @@ https://templatemo.com/tm-562-space-dynamic
     </a>
 
     <p class="desc">
-      Detecting the Bottle if there is Liquid Content.
+      Inspecting Bottle for unwanted contents
     </p>
 
     <div class="actions">
       <!-- Previous Button -->
       <a class="action previous" href="stepone.php">
-         Previous
+        Previous
       </a>
 
       <!-- Next Button -->
-      <a class="action" href="reject.php">
-        Next
+      <a class="action" href="stepthree.php" style="background-color: green !important; ">
+        Accepted
+        <span aria-hidden="true"></span>
+      </a>
+      <a class="action" href="reject.php" style="background-color: red !important; ">
+        Rejected
         <span aria-hidden="true"></span>
       </a>
 
