@@ -7,8 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        <link href="assets/css/googleapis.css"
             rel="stylesheet">
 
         <title>BINNOVATION</title>
@@ -22,7 +21,6 @@
         <link rel="stylesheet" href="assets/css/animated.css">
         <link rel="stylesheet" href="assets/css/owl.css">
         <link rel="stylesheet" href="assets/css/login.css">
-
 
         <!--
         
@@ -65,7 +63,7 @@
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
                             <ul class="nav">
-                               
+
                                 <div class="main-red-button"><a href="login.php">Go back</a></div>
                                 </li>
                             </ul>
@@ -117,16 +115,16 @@
                                             </div>
                                             <!-- Email input -->
                                             <div data-mdb-input-init class="form-outline mb-4">
-                                                <input type="email" id="form3Example3" class="form-control form-control-lg"
+                                                <input type="text" id="user_id" class="form-control form-control-lg"
                                                     placeholder="Enter a valid ID number" />
                                                 <label class="form-label" for="form3Example3">Enter ID number</label>
                                             </div>
 
                                             <!-- Password input -->
                                             <div data-mdb-input-init class="form-outline mb-3">
-                                                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                                <input type="password" id="password" class="form-control form-control-lg"
                                                     placeholder="Enter password" />
-                                                <label class="form-label" for="form3Example4">Password</label>
+                                                <label class="form-label" for="form3Example4" id="password">Password</label>
                                             </div>
 
                                             <div class="d-flex justify-content-between align-items-center">
@@ -142,7 +140,7 @@
 
                                             <div class="text-center text-lg-start mt-4 pt-2">
                                                 <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
-                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;" id="login">Login</button>
                                             </div>
 
                                         </form>
@@ -178,19 +176,37 @@
         <script src="assets/js/index.js"></script>
         <script src="assets/js/loginpg.js"></script>
         <script>
-            $("#login").click(function() {
+            $(document).ready(function() {
+                // Function to handle the login
+                function handleLogin() {
+                    var user_id = $('#user_id').val();
+                    var password = $('#password').val();
 
-                var user_id = $('#user_id').val();
+                    console.log(user_id, password);
 
+                    $.post("server/admin_login.inc.php", {
+                        user_id: user_id,
+                        password: password
+                    }, function(response) {
+                        if (response === "success") {
+                            alert('Logged in successfully!');
 
-                $.post("server/login.inc.php", {
-                    user_id: user_id
-                }, function(response) {
+                            window.location.href = "index.php";
+                        } else {
+                            alert(response);
+                        }
+                    });
+                }
 
-                    if (response === "success") {
-                        window.location.href = "index.php";
-                    } else {
-                        alert(response);
+                // Trigger login on button click
+                $("#login").click(function() {
+                    handleLogin();
+                });
+
+                // Trigger login on pressing "Enter"
+                $('#user_id, #password').on('keydown', function(e) {
+                    if (e.key === 'Enter') {
+                        handleLogin();
                     }
                 });
             });

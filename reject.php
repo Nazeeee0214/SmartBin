@@ -1,7 +1,7 @@
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Additional CSS Files -->
- <link rel="stylesheet" href="assets/css/step.css">
-    
+<!-- Additional CSS Files -->
+<link rel="stylesheet" href="assets/css/step.css">
+
 
 
 <title>BINNOVATION</title>
@@ -11,7 +11,7 @@
     <a href="#">
       <span class="title">REJECTED:
       </span>
-      
+
     </a>
 
     <p class="desc">
@@ -21,12 +21,12 @@
     <div class="actions">
       <!-- Previous Button -->
       <a class="action previous" href="steptwo.php">
-         Previous
+        Previous
       </a>
 
       <!-- Next Button -->
-      <a class="action" href="stepthree.php">
-        Next
+      <a class="action" href="stepone.php">
+        TRY AGAIN
         <span aria-hidden="true"></span>
       </a>
 

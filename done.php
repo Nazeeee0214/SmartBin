@@ -155,14 +155,11 @@ $total_pts = (float)  htmlspecialchars($points)  + (float) $_SESSION['user']['po
                 <h2>Current Points:</h2>
                 <p class="ttl_points"><?php echo  number_format($_SESSION['user']['points'], 2) ?></p>
             </div>
-            <div class="col-6">
-                <h2>Updated Points:</h2>
-                <p class="ttl_points"><?php echo number_format($total_pts, 2) ?></p>
-            </div>
+
         </div>
         <!-- Button to trigger points update -->
         <div class="row">
-            <button id="updatePointsBtn">Next</button>
+            <button id="updatePointsBtn" href="">Done</button>
 
 
         </div>
@@ -176,7 +173,7 @@ $total_pts = (float)  htmlspecialchars($points)  + (float) $_SESSION['user']['po
                 .then(data => {
                     if (data.status === "success") {
                         document.getElementById('weight').textContent = 'Weight: ' + data.weight + ' grams';
-                        document.getElementById('points').textContent = 'Points calculated: ' + data.points;
+                        document.getElementById('points').textContent = 'Points Updated Successfully ';
                         document.getElementById('errorMessage').textContent = '';
                     } else {
                         document.getElementById('points').textContent = 'Points calculated: N/A';
@@ -207,36 +204,6 @@ $total_pts = (float)  htmlspecialchars($points)  + (float) $_SESSION['user']['po
             // Trigger the function to update points on the server
             updatePointsOnServer(totalPts);
         });
-
-        function updatePointsOnServer(totalPts) {
-            fetch('server/update_points.inc.php', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/x-www-form-urlencoded'
-                    },
-                    body: new URLSearchParams({
-                        'points': totalPts // Send the total points to the server
-                    })
-                })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.status === 'success') {
-                        // Handle the success, e.g., update the UI with new points
-                        console.log("Points updated successfully!");
-                        document.getElementById('points').textContent = 'Updated Points: ' + totalPts;
-                        alert('Points Updated!');
-                        window.location.href = "logout.php";
-
-                    } else {
-                        // Handle the error
-                        console.log("Error updating points: " + data.message);
-                    }
-                })
-                .catch(error => {
-                    // Handle any errors
-                    console.log("Request failed: " + error);
-                });
-        }
     </script>
 
 </body>
