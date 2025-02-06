@@ -50,8 +50,8 @@ if ($data['status'] === 'success') {
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-            max-width: 400px;
+            padding: 70px;
+            max-width: 900px;
             width: 100%;
             text-align: center;
         }
@@ -72,20 +72,19 @@ if ($data['status'] === 'success') {
         .points-info {
             font-weight: bold;
             font-size: 28px;
-            color: #4caf50;
+            color: #800000;
             /* Green color for points */
         }
 
         .ttl_points {
             font-weight: bold;
             font-size: 32px;
-            color: #4caf50;
+            color:rgb(13, 130, 32);
             /* Green color for points */
         }
 
-
         .error-message {
-            color: #f44336;
+            color: #800000;
             /* Red for error messages */
             font-size: 16px;
             margin-top: 15px;
@@ -116,9 +115,17 @@ if ($data['status'] === 'success') {
             text-align: center;
         }
 
-        #updatePointsBtn {
+        /* Center the button */
+        .row-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             margin-top: 20px;
-            background-color: #4CAF50;
+        }
+
+        #updatePointsBtn {
+            background-color: #800000;
+            margin-top: 25px;
             /* Green background */
             color: white;
             /* White text */
@@ -126,7 +133,7 @@ if ($data['status'] === 'success') {
             /* Remove border */
             border-radius: 5px;
             /* Rounded corners */
-            padding: 12px 24px;
+            padding: 15px 284px;
             /* Padding inside the button */
             font-size: 16px;
             /* Font size */
@@ -161,13 +168,15 @@ $total_pts = (float)  htmlspecialchars($points)  + (float) $_SESSION['user']['po
             </div>
         </div>
         <!-- Button to trigger points update -->
-        <div class="row">
+        <div class="row-center">
             <button id="updatePointsBtn">Next</button>
-
-
         </div>
-
     </div>
+
+</body>
+
+
+</body>
 
     <script>
         function fetchPoints() {
